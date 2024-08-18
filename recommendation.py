@@ -11,8 +11,8 @@ download_movies()
 download_ratings()
 
 # Load dataset
-movies = pd.read_csv('dataset/movies.csv')
-ratings = pd.read_csv('dataset/ratings.csv')
+movies = pd.read_csv('movies.csv')
+ratings = pd.read_csv('ratings.csv')
 
 # Merge datasets
 data = pd.merge(ratings, movies, on='movieId')
