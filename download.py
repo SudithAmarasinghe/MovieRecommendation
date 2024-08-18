@@ -8,10 +8,10 @@ def download_pth():
 
 def download_movies():
     url = 'https://drive.google.com/uc?id=1X5VA7n2TDpjDR-CIdYcSoQNcJ7oebpdZ'
-    output = 'dataset/movies.csv'
+    output = 'movies.csv'
     gdown.download(url, output, quiet=False)
 
 def download_ratings():
     url = 'https://drive.google.com/uc?id=1E9BemxeY1Fu6yAHXnJCmTn2UlhhvIKxm'
-    output = 'dataset/ratings.csv'
+    output = 'ratings.csv'
     gdown.download(url, output, quiet=False)
